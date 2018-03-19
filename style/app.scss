@@ -1,0 +1,91 @@
+@import "../bootstrap-4.0.0/scss/functions";
+@import "../bootstrap-4.0.0/scss/variables";
+@import "base";
+// @import "mixins";
+	// Utilities
+	@import "../bootstrap-4.0.0/scss/mixins/breakpoints";
+	@import "../bootstrap-4.0.0/scss/mixins/hover";
+	@import "../bootstrap-4.0.0/scss/mixins/image";
+	@import "../bootstrap-4.0.0/scss/mixins/badge";
+	@import "../bootstrap-4.0.0/scss/mixins/resize";
+	@import "../bootstrap-4.0.0/scss/mixins/screen-reader";
+	@import "../bootstrap-4.0.0/scss/mixins/size";
+	@import "../bootstrap-4.0.0/scss/mixins/reset-text";
+	@import "../bootstrap-4.0.0/scss/mixins/text-emphasis";
+	@import "../bootstrap-4.0.0/scss/mixins/text-hide";
+	@import "../bootstrap-4.0.0/scss/mixins/text-truncate";
+	@import "../bootstrap-4.0.0/scss/mixins/visibility";
+
+	// // Components
+	@import "../bootstrap-4.0.0/scss/mixins/alert";
+	@import "../bootstrap-4.0.0/scss/mixins/buttons";
+	@import "../bootstrap-4.0.0/scss/mixins/caret";
+	// @import "../bootstrap-4.0.0/scss/mixins/pagination";//tat
+	@import "../bootstrap-4.0.0/scss/mixins/lists";
+	@import "../bootstrap-4.0.0/scss/mixins/list-group";
+	@import "../bootstrap-4.0.0/scss/mixins/nav-divider";
+	@import "../bootstrap-4.0.0/scss/mixins/forms";
+	@import "../bootstrap-4.0.0/scss/mixins/table-row";
+
+	// // Skins
+	@import "../bootstrap-4.0.0/scss/mixins/background-variant";
+	@import "../bootstrap-4.0.0/scss/mixins/border-radius";
+	@import "../bootstrap-4.0.0/scss/mixins/box-shadow";
+	@import "../bootstrap-4.0.0/scss/mixins/gradients";
+	@import "../bootstrap-4.0.0/scss/mixins/transition";
+
+	// // Layout
+	@import "../bootstrap-4.0.0/scss/mixins/clearfix";
+	@import "../bootstrap-4.0.0/scss/mixins/navbar-align";
+	@import "../bootstrap-4.0.0/scss/mixins/grid-framework";
+	@import "../bootstrap-4.0.0/scss/mixins/grid";
+	@import "../bootstrap-4.0.0/scss/mixins/float";
+
+//end
+@import "../bootstrap-4.0.0/scss/root";
+@import "../bootstrap-4.0.0/scss/reboot";
+@import "../bootstrap-4.0.0/scss/type";
+@import "../bootstrap-4.0.0/scss/images";
+@import "../bootstrap-4.0.0/scss/code";
+@import "../bootstrap-4.0.0/scss/grid";
+// @import "../bootstrap-4.0.0/scss/tables";//tat
+@import "../bootstrap-4.0.0/scss/forms";
+@import "../bootstrap-4.0.0/scss/buttons";
+@import "../bootstrap-4.0.0/scss/transitions";
+@import "../bootstrap-4.0.0/scss/dropdown";
+@import "../bootstrap-4.0.0/scss/button-group";
+@import "../bootstrap-4.0.0/scss/input-group";
+@import "../bootstrap-4.0.0/scss/custom-forms";
+@import "../bootstrap-4.0.0/scss/nav";//tat
+@import "../bootstrap-4.0.0/scss/navbar";
+@import "../bootstrap-4.0.0/scss/card";
+@import "../bootstrap-4.0.0/scss/breadcrumb";
+// @import "../bootstrap-4.0.0/scss/pagination";//tat
+@import "../bootstrap-4.0.0/scss/badge";
+// @import "../bootstrap-4.0.0/scss/jumbotron";//tat
+// @import "../bootstrap-4.0.0/scss/alert";//tat
+@import "../bootstrap-4.0.0/scss/progress";
+@import "../bootstrap-4.0.0/scss/media";
+@import "../bootstrap-4.0.0/scss/list-group";
+@import "../bootstrap-4.0.0/scss/close";
+// @import "../bootstrap-4.0.0/scss/modal";//tat
+// @import "../bootstrap-4.0.0/scss/tooltip";//tat
+// @import "../bootstrap-4.0.0/scss/popover";//tat
+// @import "../bootstrap-4.0.0/scss/carousel";//tat
+// @import "utilities";
+	@import "../bootstrap-4.0.0/scss/utilities/align";
+	@import "../bootstrap-4.0.0/scss/utilities/background";
+	@import "../bootstrap-4.0.0/scss/utilities/borders";
+	@import "../bootstrap-4.0.0/scss/utilities/clearfix";
+	@import "../bootstrap-4.0.0/scss/utilities/display";
+	// @import "../bootstrap-4.0.0/scss/utilities/embed";//tat
+	@import "../bootstrap-4.0.0/scss/utilities/flex";
+	@import "../bootstrap-4.0.0/scss/utilities/float";
+	@import "../bootstrap-4.0.0/scss/utilities/position";
+	@import "../bootstrap-4.0.0/scss/utilities/screenreaders";
+	@import "../bootstrap-4.0.0/scss/utilities/sizing";
+	@import "../bootstrap-4.0.0/scss/utilities/spacing";
+	@import "../bootstrap-4.0.0/scss/utilities/text";
+	@import "../bootstrap-4.0.0/scss/utilities/visibility";
+//end 
+// @import "../bootstrap-4.0.0/scss/print";//tat
