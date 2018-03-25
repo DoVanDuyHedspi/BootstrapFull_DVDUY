@@ -49,9 +49,6 @@ nav {
 	background: url('../../images/cover.png');
 	background-repeat: no-repeat;
 	background-position: center center;
-	// div {
-	// 	padding-top: 4.7rem;
-	// }
 	p {
 		font-size: smaller;
 	}
@@ -94,39 +91,6 @@ nav {
 	}
 	}
 }
-// .detail {
-
-// 	.slider {
-// 		.pn {
-// 			height: 30px;
-// 		}
-// 		div {
-// 			box-sizing: border-box; 
-// 			border:1px solid white;
-// 			
-// 		}
-// 		img {
-// 			width: 100%;
-// 		}
-// 	}
-// 	button {
-// 		background: red !important;
-// 	}
-// }
-// @media screen and (max-width: 992px) {
-// 	.detail .slider {
-// 		.image-detail {
-// 			width: 18%;
-// 			display: inline-block !important;
-// 		}
-// 		.pn {
-// 			width: 11%;
-// 			display: inline-block !important;
-// 			transform: rotate(270deg)
-// 		}
-// }
-	
-// }
 @media screen and (max-width: 1000px) and (min-width: 400px) {
 	.cardd {
 		display: none;
