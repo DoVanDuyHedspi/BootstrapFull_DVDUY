@@ -12,6 +12,7 @@ Thực hiện bởi [Duy](https://github.com/DoVanDuyHedspi)
 
 - Đề bài:[tại đây](https://docs.google.com/spreadsheets/d/1AcPRWhkGZsbpEEnysr7i6qq9YZHvAOyGe_X_DFYu2TE/edit?ts=5a7807d7#gid=1068631537)
 - Khóa học bootstrap 4:[tại đây](https://www.youtube.com/playlist?list=PLUoqTnNH-2XyNhhLuYrrmrmV46jVw6RHF)
+- Mockup draw.io: [tại đây](https://drive.google.com/file/d/10tPtvGLhUpZY_AReNyOGciz2uzJoGr_6/view?usp=sharing)
 - Demo: [tại đây](https://dovanduyhedspi.github.io/BootstrapFull_DVDUY/)
 
 ## Hướng dẫn sử dụng 
