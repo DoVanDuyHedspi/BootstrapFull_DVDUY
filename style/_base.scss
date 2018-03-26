@@ -92,6 +92,13 @@ nav {
 		}
 	}
 }
+.cardd {
+	.title {
+		hr {
+			border-color: red; width: 50px;
+		}
+	}
+}
 @media screen and (max-width: 1000px) and (min-width: 400px) {
 	.cardd {
 		display: none;
