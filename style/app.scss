@@ -1,7 +1,7 @@
 @import "../bootstrap-4.0.0/scss/functions";
 @import "../bootstrap-4.0.0/scss/variables";
 @import "variables";
-@import "base";
+
 // @import "mixins";
 	// Utilities
 	@import "../bootstrap-4.0.0/scss/mixins/breakpoints";
@@ -90,3 +90,4 @@
 	// @import "../bootstrap-4.0.0/scss/utilities/visibility";
 //end 
 // @import "../bootstrap-4.0.0/scss/print";//tat
+@import "base";
