@@ -28,12 +28,16 @@ Thực hiện bởi [Duy](https://github.com/DoVanDuyHedspi)
 
 ## Kiến thức nhận được
 
-1. Tại sao không nên dùng bản alpha cho dự án của mình ?
-	Vì bản alpha là bản dùng để thử nghiệm, vẫn còn nhiều lỗi, và update phiên bản alpha liên tục, dùng vào dự án thật thì rủi ro cao.
-	Nếu bạn muốn ổn định thì nên sử dụng bản beta, còn bạn muổn thử nghiệm và đóng góp vào bootstrap 4 thì có thể trải nghiệm vs bản alpha.
-2. Underlying stylesheet preproccessor(USP) thay đổi từ BS3->4 như thế nào? Optional: nêu vài điểm khác biệt giữa 2 loại USP?
-	Sass thay vì Less. Bootstrap 3 sử dụng LESS là engine để tiền xử lý (preprocessor) cho CSS, nhưng đến phiên bản 4, bootstrap đã được refactor để sử dụng SASS. SASS dễ sử dụng đồng thời cung cấp nhiều khả năng tùy biến hơn. Đồng thời, nhờ vào việc [Libsass Sass Compiler](https://github.com/sass/libsass) được viết bằng C/C++ mà bootstrap 4 sẽ được biên soạn(compile) nhanh hơn trước nhiều.
-3.  Ngoài USP mới ra thì BS4 có những gì mới? 
+### 1. Tại sao không nên dùng bản alpha cho dự án của mình ?
+
+Vì bản alpha là bản dùng để thử nghiệm, vẫn còn nhiều lỗi, và update phiên bản alpha liên tục, dùng vào dự án thật thì rủi ro cao.
+Nếu bạn muốn ổn định thì nên sử dụng bản beta, còn bạn muổn thử nghiệm và đóng góp vào bootstrap 4 thì có thể trải nghiệm vs bản alpha.
+
+### 2. Underlying stylesheet preproccessor(USP) thay đổi từ BS3->4 như thế nào? Optional: nêu vài điểm khác biệt giữa 2 loại USP?
+
+Sass thay vì Less. Bootstrap 3 sử dụng LESS là engine để tiền xử lý (preprocessor) cho CSS, nhưng đến phiên bản 4, bootstrap đã được refactor để sử dụng SASS. SASS dễ sử dụng đồng thời cung cấp nhiều khả năng tùy biến hơn. Đồng thời, nhờ vào việc [Libsass Sass Compiler](https://github.com/sass/libsass) được viết bằng C/C++ mà bootstrap 4 sẽ được biên soạn(compile) nhanh hơn trước nhiều.
+
+### 3.  Ngoài USP mới ra thì BS4 có những gì mới? 
 - Nhỏ hơn, nhẹ hơn (bootstrap 3 (3.3.7), 121KB (file bootstrap.min.css), thì phiên bản 4.0.0 alpha bootstrap.min.css chỉ có 88KB)
 - Hệ grid mới:Bootstrap 3 hiện tại có 4 dạng grid dành cho cột, .col-xs-XX dành cho mobile, .col-sm-XX dành cho tablet, .col-md-XX dành cho máy tính, và .col-lg-XX dành cho máy tính có kích cỡ màn hình lớn hơn. Bootstrap 4 tiến thêm một bước và giới thiệu dạng grid thứ 5 col-xl-XX giúp developer xây dựng layout hoạt động tốt trên tất cả các thiết bị.
 
@@ -45,33 +49,39 @@ Thực hiện bởi [Duy](https://github.com/DoVanDuyHedspi)
 Nhưng class tiện ích này được đặt tên theo luật như sau:
 [margin hoặc padding]-[hướng]-[kích thước]
 Ví dụ để set margin là 0 cho tất cả các hướng của 1 thành phần ta chỉ cần đơn giản thêm .m-all-0 cho thành phần đó. Và còn nhiều tiện ích khác.
-4. Nêu các ưu điểm của flexbox?
+
+### 4. Nêu các ưu điểm của flexbox?
 - Một số ưu điểm của flexbox đã được nói ở trên.
 - Lí do nên dùng flexbox:
 
 ![flexbox](https://blog.haposoft.com/content/images/2017/08/Capture.JPG)
 
-5. Nêu 1 số khác nhau giữa ES6 với ES5? BS4 sử dụng gì để compile Javascript
+### 5. Nêu 1 số khác nhau giữa ES6 với ES5? BS4 sử dụng gì để compile Javascript
 
-6. Cách ghi đè variable của bootstrap.
+### 6. Cách ghi đè variable của bootstrap.
 
 - Tạo một file _variables.scss mới trong thư mục style. Copy và comment toàn bộ file scss/_variable.scss của bootstrap vào file _variables.scss của mình. Nếu muốn ghi đè biến nào thì bỏ comment biến đó rồi ghi đè. Khi import thì import file _variables.scss của bootstrap trước file _variables.scss của mình.
 
-7. Mô tả  basic workflow của sass với bs4 được giới thiệu trong video?
-* Cài ruby vào máy và cái sass vào dự án như hướng dẫn [tại đây](https://sass-lang.com/install). Tải file bootstrap 4 vào dự án. Tạo các thư mục như cấu trúc dưới đây.
-- bootstrap/
-- images/
-- js/
-- style/
-	- css/
-	- _base.scss
-	- _variables.scss
-	- app.scss
-- index.html
 
-+ _base.scss là file mình sẽ code css của mình.
-+ _variables.scss là file như đã nói ở mục (6) và ghi thêm biến của mình.
-+ app.scss để import các file scss của bootstrap và 2 file _base.scss, _variables.scss của mình.
+### 7. Mô tả  basic workflow của sass với bs4 được giới thiệu trong video?
+* Cài ruby vào máy và cái sass vào dự án như hướng dẫn [tại đây](https://sass-lang.com/install). Tải file bootstrap 4 vào dự án. Tạo các thư mục như cấu trúc dưới đây.
+
+````
+	- bootstrap/
+	- images/
+	- js/
+	- style/
+		- css/
+		- _base.scss
+		- _variables.scss
+		- app.scss
+	- index.html
+````
+
+
+	+ _base.scss là file mình sẽ code css của mình.
+	+ _variables.scss là file như đã nói ở mục (6) và ghi thêm biến của mình.
+	+ app.scss để import các file scss của bootstrap và 2 file _base.scss, _variables.scss của mình.
 * Trong thư mục bootstrap/ copy và comment toàn bộ file bootstrap.scss, _mixins.scss, _utilities.scss vào file style/app.scss. import file style/_variables.scss vào app.css như mục (6) và import file _base.scss vào cuối cùng file. Khi làm việc, nhận thấy cần import những file scss nào thì sẽ bỏ comment ở import đó.
 
 * Câu lệnh compile file scss thành css: sass --watch style:style/css . Sau câu lệnh thì scss sẽ được compile vào file css/app.css. Trong html thì ta link css đến file css/app.css.
