@@ -14,6 +14,15 @@ img {
 	max-width: 100%;
 	max-height: 100%;
 }
+.txt {
+	font-size: 0.8rem;
+}
+.mt-40 {
+	margin-top: 40px;
+}
+.mt-35 {
+	margin-top: 35px;
+}
 header {
 	background-color: #fefefe;
 	.row {
@@ -48,7 +57,7 @@ nav {
 #cover {
 	height: $cover-height;
 	background: linear-gradient(0deg, $background-cover, $background-cover ), url(../../images/cover.png) repeat;
-
+	margin-bottom: 80px;
 	background-position: center center;
 	p {
 		font-size: smaller;
@@ -66,6 +75,7 @@ nav {
 	}
 	.pn {
 		height: 30px;
+		cursor: pointer;
 	}
 	ul {
 		list-style: none;
@@ -75,6 +85,7 @@ nav {
 		position: absolute;
 		padding: 0px;
 		li {
+			cursor: pointer;
 			margin: 15px 0 0;
 			box-sizing: border-box; 
 			border:1px solid white;
@@ -117,6 +128,10 @@ nav {
 }
 .card {
 	height: $card-height;
+}
+.new {
+	background-color: #72d7d6;
+	color: white;
 }
 .top-card {
 	height: $card-height-top;
